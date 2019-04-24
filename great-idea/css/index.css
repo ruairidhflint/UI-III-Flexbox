@@ -110,24 +110,36 @@ h1 {
 
 .top-text {
 	display: flex;
-	border: 1px solid red;
+	justify-content: space-evenly;
+	
+	padding-top: 40px;
 }	
 
 
-/*.image-middle {
+.image-middle {
 	width: 100px;
+	padding: 40px 0 40px 0;
+}
+
+.bottom-text{
+	display: flex;
+	justify-content: space-between;
+	flex-shrink: 0;
 	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+    /* border: 1px solid red; */
+	/* height: 200px; */
 }
 
 .paragraphs2 {
-	display: inline-block;
+	/* border: 1px solid green; */
 	width: 33%;
 }
 
 .contact {
-	display: inline-block;
-	/*border: 2px solid black; */
-	/* width: 200px;
+	
+	width: 200px;
 	padding-bottom: 80px;
 }
 
@@ -140,4 +152,4 @@ footer {
 	position: relative;
 	top: 50px;
 	z-index: 1;
-} */ 
+} 
