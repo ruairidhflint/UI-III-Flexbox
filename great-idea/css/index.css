@@ -112,6 +112,10 @@ a:hover {
 	border: 1px solid black;
 	padding: 0 15px 0 15px;
 }
+.gs:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
 
 h1 {
 	font-size: 450%;

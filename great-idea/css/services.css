@@ -162,5 +162,6 @@ footer {
 	margin-bottom: 30px;
 }
 
-
-
+a:hover {
+	opacity: 0.5;
+}
