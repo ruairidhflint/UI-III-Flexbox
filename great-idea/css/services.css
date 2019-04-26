@@ -22,8 +22,12 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol {
 	list-style: none;
+}
+
+ul, li {
+	list-style-position: inside;
 }
 
 blockquote, q {
@@ -65,10 +69,10 @@ body {
 }
 
 a {
-	color: inherit;
+	color:inherit;
 	text-decoration: none;
-}
 
+   }
 a:hover {
 	text-decoration: underline;
 	opacity: 0.6;
@@ -90,86 +94,79 @@ a:hover {
 	position: fixed;
 }
 
-/* Header */
-
-.header {
-	/* border: black solid 2px; */
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 1px solid black;
-	padding-bottom: 80px;
+.image-services {
+	margin-bottom: 40px;
 	padding-top: 80px;
 }
 
-.header-left {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-left: 100px;
-}
-
-.gs {
-	border: 1px solid black;
-	padding: 0 15px 0 15px;
-}
-.gs:hover {
-	opacity: 0.5;
-	text-decoration: none;
+.top-text {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 h1 {
-	font-size: 450%;
-	text-align: center;
+	font-size: 150%;
 }
 
-/* Top Paragraph */
+/* Containers */
 
-.top-text {
+.container {
 	display: flex;
+	flex-direction: column;
+	height: 770px;
 	justify-content: space-evenly;
-	padding-top: 40px;
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
 }
 
-.image-middle {
-	width: 100px;
-	padding: 40px 0 40px 0;
+h2 {
+	font-size: 110%;
 }
 
-.bottom-text {
+.row1, .row2, .row3 {
 	display: flex;
 	justify-content: space-between;
-	flex-shrink: 0;
-	padding-bottom: 40px;
-	border-bottom: 1px solid black;
+}
+
+.paragraph {
+	border: 1px solid black;
+	padding: 20px;
+	width: 47.5%;
+	background-color: #eff0f2;
+}
+
+.learn {
+	background-color: white;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 25px 10px 25px;
+	border-radius: 5px;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+	
 	margin-bottom: 50px;
-	/* border: 1px solid red; */
-	/* height: 200px; */
-}
+}	
 
-.paragraphs2 {
-	/* border: 1px solid green; */
-	width: 33%;
-}
-
-.contact {
-	width: 200px;
-	padding-bottom: 80px;
+.bottom-left, .bottom-right {
+	width: 47.5%;
+	
 }
 
 footer {
 	text-align: center;
-	padding-bottom: 40px;
+	margin-bottom: 30px;
+}
+
+a:hover {
+	opacity: 0.5;
 }
 
 img:hover {
 	opacity: 0.9;
-}
-
-h1:hover {
-	opacity: 0.8;
-}
-
-h2:hover {
-	opacity: 0.8;
 }
